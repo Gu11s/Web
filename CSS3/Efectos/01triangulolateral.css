@@ -1,0 +1,46 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 10px 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: 15px 30px;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.triangulo_lateral{
+	-moz-transform: translateX(0);
+	-moz-transition-duration:0.3s;
+}
+
+.triangulo_lateral:before{
+	content: '';
+	-moz-transition-duration:0.3s;
+
+	/*width: 30px;
+	height: 30px;*/
+	/*PARA TRIANGULO*/
+	border-style: solid;
+	/*border-width: 15px 15px 15px 0px; /*margen de 0 a donde queremos que apunte*/
+	border-width: 0px 15px 15px 15px;
+	/*border-color: orange red blue cyan;/*color al opuesto*/
+	/*border-color: transparent #a8cf45 transparent transparent;/*color al opuesto*/
+	border-color: transparent transparent red transparent;
+	
+	position: absolute;
+	/*left: 0px;
+	top:50%;*/
+	top: 0px;
+	left: 50%;
+	margin-left: -15px;
+}
+
+.triangulo_lateral:hover{
+	-moz-transform: translateY(15px);
+}
+
+.triangulo_lateral:hover:before{
+	top:-13px;
+}

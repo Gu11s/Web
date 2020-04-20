@@ -1,0 +1,26 @@
+
+div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 20px;
+	padding: 10px
+}
+
+/*Padding no sirve para separar
+sirve para dar grosor.
+
+Las cosas se separan con
+margenes*/
+
+/*mal hecho*/
+p{
+	padding: 5px;
+}
+
+a{
+	width: 200px;
+	height: 100px;
+	border: 1px solid red;
+	padding: 30px;
+}

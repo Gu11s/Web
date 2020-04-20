@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<!--Se normaliza de primero para que no haya errores futuros.
+	**normalize**
+	-->
+	<link rel="stylesheet" href="normalize.css">
+
+	<!--Enlace1 CSS
+		PROFESIONAL-->
+	<link rel="stylesheet" href="02Estilo.css">
+
+	<!--SE APLICA EL ULTIMO DISEÑO QUE SE AGREGA-->
+
+	
+	<!--MODERNIZR para la compatibilidad con todos los navegadores para versiones antiguas a la actual
+	**modernizr**
+		<script type="nombre archivo js"></script>-->
+
+	<!--Enlace2 CSS
+		solo si es especifico.-->
+	<style>
+		div{
+			width: 50px;
+			height: 50px;
+			margin: 20px;
+			background: green;
+		}
+	</style>
+
+</head>
+<body>
+	<header></header>
+	<div></div>
+	<div></div>
+	<!--Enlace3 CSS
+		en contra del diseño en escala. 
+		MALA PRACTICA-->
+	<div style="width: 50px; height: 50px; margin: 20px; background: blue;">
+	</div>
+	<div></div>
+	<div></div>
+</body>
+</html>

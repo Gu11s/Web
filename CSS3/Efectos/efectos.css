@@ -1,0 +1,29 @@
+
+div{
+	border: 2px solid black;
+	width: 50%;
+	position: relative;
+	margin-left: 25%;
+}
+
+/*div:before{ /*PSEUDOELEMENTO tiene los mismo atributos que un elemento*/
+	/*content:'hola';
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background: red;
+}
+
+div:after{ /*PSEUDOELEMENTO*/
+	/*content: 'mundo';
+}*/
+
+/*PSEUDOCLASE*/
+
+div:hover{
+	background: orange;
+}
+
+a:active{/*focus, active son unicos en los enlaces*/
+	color: red;
+}

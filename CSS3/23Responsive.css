@@ -1,0 +1,48 @@
+/*MOBILE FIRST
+
+disenio para mobiles (pantallas mas pequenias o la minima posible hasta la mas grande)
+
+MEDIDAS PORCENTUALES */
+
+body{
+	background: orange;
+}
+
+div{
+	width: 80%;
+	height: 150px;
+	/*border: 0px solid black;*/
+	margin: 8%;
+	background: white;
+	display: inline-block;
+}
+
+@media screen and (min-width: 480px){/*Celular*/
+	body{
+			background: green;
+	}
+	
+}
+
+@media screen and (min-width: 767px){/*Tablet*/
+
+	body{
+		background: #34A2A6;
+	}
+	div{
+		width: 40%;
+		margin: 4%;
+	}
+
+}
+
+@media screen and (min-width: 950px){/*Laptop-Desktop*/
+	body{
+		background: blue;
+	}
+
+	div{
+		width: 28%;
+		margin: 2%;
+	}	
+}

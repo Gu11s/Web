@@ -1,0 +1,96 @@
+/*IDENTIFICADORES
+para ciertos elementos*/
+
+header h2, h3{
+	color: green;
+}
+
+h2{
+	color: red;
+}
+
+h4{
+	color: blue;
+}
+
+p{
+	color: red;
+}
+
+p#identificador{
+	color: blue;
+}
+
+/*CLASES
+para varios elementos
+un elementos puede pertenecer a varias clases
+pero no a varios id's*/
+
+.prueba{
+	color: orange;
+}
+
+.grande{
+	font-size: 20px;
+}
+
+/*SELECTOR ADYACENTE
+aplicable para un parrafo que tenga un parrafo antes de él
+elemento1 + elemento2*/
+p+p{
+	font-weight: bolder;
+}
+
+/*HIJOS*/
+
+div > p{
+	color: gray;
+}
+
+/*HERMANOS
+todos los que sean hermanos menores del elemento*/
+p~p{
+	color:green;
+}
+
+/*h2[title]{
+	color: red;
+}*/
+
+h2[title="main"]{
+	color: red;
+}
+
+h2[title~="otro"]{
+	color: magenta;
+}
+
+h2[lang |= "es"]{
+	color: blue;
+}
+
+.naranja{
+	color: orange;
+}
+
+.rojo{
+	color: red !important;;
+}
+
+#gris{
+	color: gray;
+}
+
+
+/*COLISION DE ESTILOS
+
+	1- css del navegador.
+	2- css del usuario.
+	3- archivos css enlazados en orden de enlace (ultimo en añadirse)
+	4- propiedades que de heredan.
+	5- propiedades propias del elemento
+	6- clases asignadas en el orden de asignación
+	7- identificador
+	8- important
+
+	*/

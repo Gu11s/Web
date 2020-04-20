@@ -1,0 +1,83 @@
+/*a#link1:link{
+	color: green;
+}
+a#link1:visited{
+	color: blue;
+}
+a#link2:link{
+	color: green;
+}
+a#link2:visited{
+	color: yellow;
+}*/
+
+/*
+link
+visited
+hover
+active
+focus
+*/
+
+/*a#link1{
+
+}
+
+a#link2:link{
+	color: green;
+}
+
+a#link1:visited{
+	color: red;
+	font-size: 20px;
+	background: green;
+	text-decoration: none;
+}
+
+p:hover{
+	color:green;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+span:active{
+	color: green;
+}
+
+input:focus{
+	border-radius: 20px;
+	background: red;
+}*/
+
+div *{
+	border: 1px solid black;
+	width: 80px;
+	height: 50px;
+	background: white;
+	display: inline-block;
+}
+
+div *:not(p){
+	background: orange;
+}
+
+/*
+avanzadas
+
+    :nth-child(N)
+    :nth-last-child(N)
+    :nth-of-type(N)
+    :nth-last-of-type(N)
+    :first-of-type
+    :last-of-type
+    :only-of-type
+    :empty
+    :not(S)
+    :last-child
+    :only-child
+    :root
+    :enable
+    :disable
+    :checked
+
+*/

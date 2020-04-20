@@ -1,0 +1,27 @@
+header{
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+
+div{
+	idth: 50px;
+	height: 50px;
+	margin: 20px;
+	background: green;
+}
+
+/*
+PREFIJOS
+**caniuse.com**
+
+sirven para que los navegadores 
+entiendan el código
+
+
+-webkit- Google Chrome, Safari, Navegador Android
+-moz-    Firefox
+-o-      Opera
+-ms-     Internet Explorer, Edge
+-khtml-  Konqueror
+*/

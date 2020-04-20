@@ -1,0 +1,17 @@
+/*
+los pseudo elementos siempre seguiran a los elementos
+*tienen que tener un content
+*no son seleccionables por el usuario
+*no aprovechar para escribir texto, no sirve para eso.
+*son para contenido visual
+*/
+
+p{
+	position: relative;
+}
+p:before{/*pseudo elemento antes de p*/
+	content: "pseudoelemento before";
+	top: 50px;
+	position: relative;
+	left: 50px;
+}
